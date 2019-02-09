@@ -40,3 +40,4 @@ $RECYCLE.BIN/
 Thumbs.db
 UserInterfaceState.xcuserstate
 www/css/
+package-lock.json
