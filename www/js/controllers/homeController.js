@@ -1,0 +1,5 @@
+angular.module('starter').controller('HomeController',
+	function ($scope, $window) {
+			
+	}
+);
