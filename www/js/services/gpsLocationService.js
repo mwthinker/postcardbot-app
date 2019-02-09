@@ -48,7 +48,7 @@ angular.module('starter').factory('gpsLocationService', function ($http, POSTCAR
 								break;
 					}
 					console.log(msg);
-					//return msg;
+					return msg;
 				}
 			);
 		}

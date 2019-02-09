@@ -5,9 +5,12 @@ angular.module('starter').controller('HomeController',
 
 		$scope.activateGps = function () {
 			if ($scope.activateToggle.checked) {
-				gpsLocationService.uploadGpsLocation();
+				gpsLocationService.uploadGpsLocation().then(function () {
+					console.log("then");
+				}).catch(function (error) {
+					console.log("catch");
+				});
 			}
-			console.log("asdasd" + $scope.activateToggle.checked);
 		};
 	}
 );
