@@ -32,5 +32,6 @@ angular.module('starter', ['ionic'])
 
     // if none of the above states are matched, use this as the fallback
     $urlRouterProvider.otherwise('/home');
-  });
+  })
+  .constant('POSTCARD_GPS_URL', "https://postcardbot.cyberandspace.se/addcoordinates/");
 
